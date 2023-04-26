@@ -45,6 +45,7 @@ func_schema_setup() {
   fi
 }
 
+
 func_app_prereq() {
   func_print_head "Create Application User"
   id ${app_user} &>>/tmp/roboshop.log
